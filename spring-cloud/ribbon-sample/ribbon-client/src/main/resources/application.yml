@@ -1,0 +1,13 @@
+spring.cloud.loadbalancer.retry.enabled: true
+
+ribbon-server:
+  ribbon:
+    eureka:
+      enabled: false
+    OkToRetryOnAllOperations: true
+    MaxAutoRetriesNextServer: 2
+    MaxAutoRetries: 0
+    ConnectionTimeout: 1000
+    ReadTimeout: 2000
+    listOfServers: localhost:8081, localhost:8082, localhost:8083
+    ServerListRefreshInterval: 1000
