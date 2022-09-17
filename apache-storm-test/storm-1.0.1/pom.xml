@@ -246,7 +246,7 @@
         <junit.version>4.11</junit.version>
         <metrics-clojure.version>2.5.1</metrics-clojure.version>
         <hdrhistogram.version>2.1.7</hdrhistogram.version>
-        <calcite.version>1.4.0-incubating</calcite.version>
+        <calcite.version>1.32.0</calcite.version>
         <jackson.version>2.6.3</jackson.version>
         <maven-surefire.version>2.18.1</maven-surefire.version>
         <kafka.version>0.9.0.1</kafka.version>
